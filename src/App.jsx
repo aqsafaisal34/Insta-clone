@@ -31,8 +31,10 @@ function App() {
      </div>
      <div className='centre'>
       <div class='posts'>
+      <header>
       <img className="profile" src={profileImg} alt=""/> 
-      <span>Aqsa Faisal</span> <p className="dots"> <b>...</b></p> <br/>
+      <h3>Aqsa Faisal</h3>
+      </header>
       <img className='post1' src={post1Img} alt="" />
       <h3>200 Likes</h3>
       <p>View all Comments</p>
@@ -47,11 +49,11 @@ function App() {
             <FontAwesomeIcon icon={faLocationArrow} className="icon1" />
           
   
-          <FontAwesomeIcon className="icon1" icon={faBookmark} />
+          <FontAwesomeIcon className="icon1" icon={faBookmark} id='bookmark' />
           </p>
   
         </div>
-        <div className="footer">
+        <div className="footer1">
           <p className="addcomment"><FontAwesomeIcon icon={faFaceSmile} className="addcomment" />
             <span >
               <input type="text" id="input" placeholder="Add a comment" className="comment"/>
@@ -64,10 +66,12 @@ function App() {
         </div>
 
       </div>
+      <hr />
       <div class='posts'>
+      <header>
       <img className="profile" src={profileImg} alt=""/> 
-      <span>Aqsa Faisal</span> <p className="dots"> <b>...</b></p> <br/>
-      <img className='post1' src={post1Img} alt="" />
+      <h3>Aqsa Faisal</h3> </header>
+      <img className='post1' src={post2Img} alt="" />
       <h3>200 Likes</h3>
       <p>View all Comments</p>
       <p>10 Hours ago</p>
@@ -85,7 +89,7 @@ function App() {
           </p>
   
         </div>
-        <div className="footer">
+        <div className="footer1">
           <p className="addcomment"><FontAwesomeIcon icon={faFaceSmile} className="addcomment" />
             <span >
               <input type="text" id="input" placeholder="Add a comment" className="comment"/>
@@ -98,10 +102,12 @@ function App() {
         </div>
 
       </div>
+      <hr />
       <div class='posts'>
+      <header>
       <img className="profile" src={profileImg} alt=""/> 
-      <span>Aqsa Faisal</span> <p className="dots"> <b>...</b></p> <br/>
-      <img className='post1' src={post1Img} alt="" />
+      <h3>Aqsa Faisal</h3> </header>
+      <img className='post1' src={post3Img} alt="" />
       <h3>200 Likes</h3>
       <p>View all Comments</p>
       <p>10 Hours ago</p>
@@ -119,7 +125,7 @@ function App() {
           </p>
   
         </div>
-        <div className="footer">
+        <div className="footer1">
           <p className="addcomment"><FontAwesomeIcon icon={faFaceSmile} className="addcomment" />
             <span >
               <input type="text" id="input" placeholder="Add a comment" className="comment"/>
@@ -132,6 +138,7 @@ function App() {
         </div>
 
       </div>
+      <hr />
      </div>
      <div className='rightside'>
       <div className='firstrow'>
