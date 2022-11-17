@@ -4,11 +4,9 @@
   box-sizing: border-box;
 }
 
-
 .container {
   display: flex;
 }
-
 
 .leftside {
   width: 300px;
@@ -33,13 +31,11 @@
 
 .list>ul {
   list-style: none;
-
 }
 
 .list>ul>li {
   padding: 25px 0;
   margin-left: 25px;
-
 }
 
 .list>ul>li>.Icon {
@@ -86,13 +82,16 @@ footer>ul>li {
   background-color: white;
   float: right;
 }
-header{
+
+header {
   display: flex;
 }
-header>h3{
+
+header>h3 {
   margin: 12px 3px;
   font-weight: 600;
 }
+
 .profile {
   width: 50px;
   height: 50px;
@@ -102,18 +101,14 @@ header>h3{
 
 .post1 {
   box-sizing: border-box;
-  width: 700px;
-  height: 500px;
 }
 
 .icon {
-
   margin: 0px;
   width: 300px;
-
-
 }
-#input{
+
+#input {
   border: none;
 }
 
@@ -129,16 +124,13 @@ header>h3{
   cursor: pointer;
 }
 
-
 .icons {
   display: flex;
-
 }
 
 .addcomment {
   margin: 0% 4px;
   font-size: 30px;
-
 }
 
 .footer1 {
@@ -176,3 +168,22 @@ button {
   cursor: pointer;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 800px) {
+  .leftside {
+    display: none;
+  }
+
+  .rightside {
+    display: none;
+  }
+
+  .centre {
+    width: 100%;
+    border: none;
+  }
+}
